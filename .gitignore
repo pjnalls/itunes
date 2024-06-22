@@ -33,3 +33,8 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Sound files not included in the repo for this project due
+# to licenses. Please include your own sample sounds.
+assets/*.mp3
+assets/*.wav
