@@ -1,1 +1,0 @@
-export const MEDIA_QUERY_BREAKPOINT_PX = 768;
