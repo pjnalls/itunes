@@ -14,8 +14,7 @@ export const sampleSongData: Track[] = [
     album: 'if(onlySilent)',
     genre: 'Classical',
     date: '2022-06-20T07:00:00+00:00',
-    artwork:
-      'https://raw.githubusercontent.com/pjnalls/modulart-01/main/art.avif',
+    artwork: 'assets/blizzard.avif',
     duration: 4.32,
   },
   {
@@ -29,8 +28,7 @@ export const sampleSongData: Track[] = [
     album: 'Celestial Wonders',
     genre: 'Classical',
     date: '2014-05-20T07:00:00+00:00',
-    artwork:
-      'https://raw.githubusercontent.com/pjnalls/modulart-01/main/art.avif',
+    artwork: 'assets/stars.avif',
     duration: 3.02,
   },
   {
@@ -41,8 +39,7 @@ export const sampleSongData: Track[] = [
     album: 'O1.',
     genre: 'New Age',
     date: '2020-06-20T07:00:00+00:00',
-    artwork:
-      'https://raw.githubusercontent.com/pjnalls/modulart-01/main/art.avif',
+    artwork: 'assets/shaman.avif',
     duration: 2.37,
   },
   {
@@ -56,8 +53,7 @@ export const sampleSongData: Track[] = [
     album: 'O1.',
     genre: 'New Age',
     date: '2020-06-20T07:00:00+00:00',
-    artwork:
-      'https://raw.githubusercontent.com/pjnalls/modulart-01/main/art.avif',
+    artwork: 'assets/shaman.avif',
     duration: 4.39,
   },
   {
@@ -71,8 +67,7 @@ export const sampleSongData: Track[] = [
     album: 'O1.',
     genre: 'New Age',
     date: '2020-06-20T07:00:00+00:00',
-    artwork:
-      'https://raw.githubusercontent.com/pjnalls/modulart-01/main/art.avif',
+    artwork: 'assets/shaman.avif',
     duration: 6.59,
   },
 ];
