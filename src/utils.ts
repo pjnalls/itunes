@@ -5,69 +5,57 @@ export const MEDIA_QUERY_BREAKPOINT_PX = 768;
 export const sampleSongData: Track[] = [
   {
     id: 0,
-    /** Paths to sound files are not included in
-     * this repo for this project due to licensing.
-     * Please include your own sample sounds `url`s. */
-    url: 'assets/sample.mp3',
+    url: 'assets/songs/blizzard.mp3',
     title: 'Blizzard',
     artist: 'Kiki, Mimi, & Mini',
     album: 'if(onlySilent)',
     genre: 'Classical',
     date: '2022-06-20T07:00:00+00:00',
-    artwork: 'assets/blizzard.avif',
-    duration: 4.32,
+    artwork: 'assets/artwork/blizzard.avif',
+    duration: 3.02,
   },
   {
     id: 1,
-    /** Paths to sound files are not included in
-     * this repo for this project due to licensing.
-     * Please include your own sample sounds `url`s. */
-    url: 'assets/sample.mp3',
+    url: 'assets/songs/nova.mp3',
     title: 'Nova',
     artist: 'Vivi Freezy',
     album: 'Celestial Wonders',
     genre: 'Classical',
     date: '2014-05-20T07:00:00+00:00',
-    artwork: 'assets/stars.avif',
-    duration: 3.02,
+    artwork: 'assets/artwork/stars.avif',
+    duration: 3.53,
   },
   {
     id: 2,
-    url: 'assets/sample.mp3',
+    url: 'assets/songs/shaman.mp3',
     title: 'Shaman',
     artist: 'Jungmorpheus',
     album: 'O1.',
     genre: 'New Age',
     date: '2020-06-20T07:00:00+00:00',
-    artwork: 'assets/shaman.avif',
-    duration: 2.37,
+    artwork: 'assets/artwork/shaman.avif',
+    duration: 2.18,
   },
   {
     id: 3,
-    /** Paths to sound files are not included in
-     * this repo for this project due to licensing.
-     * Please include your own sample sounds `url`s. */
-    url: 'assets/sample.mp3',
-    title: 'Iron Feathers Of Air',
+    url: 'assets/songs/perfect-beauty.mp3',
+    title: 'Perfect Beauty',
     artist: 'Jungmorpheus',
     album: 'O1.',
     genre: 'New Age',
     date: '2020-06-20T07:00:00+00:00',
-    artwork: 'assets/shaman.avif',
-    duration: 4.39,
+    artwork: 'assets/artwork/shaman.avif',
+    duration: 7.20,
   },
   {
     id: 4,
-    /** Paths to sound files are not included in
-     * this repo for this project due to licensing.
-     * Please include your own sample sounds `url`s. */
-    url: 'assets/sample.mp3',
+    url: 'assets/songs/summer-walk.mp3',
     title: 'Fly You To The Sky × Free Fall',
     artist: 'Jungmorpheus',
     album: 'O1.',
     genre: 'New Age',
     date: '2020-06-20T07:00:00+00:00',
-    artwork: 'assets/shaman.avif',
-    duration: 6.59,
+    artwork: 'assets/artwork/shaman.avif',
+    duration: 3.17,
   },
 ];

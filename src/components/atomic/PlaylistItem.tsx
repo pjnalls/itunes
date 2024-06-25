@@ -52,7 +52,7 @@ export default function PlaylistItem({
         </View>
         <View style={{ width: 40 }}>
           <Text style={{ color: isCurrent() ? '#fff' : '#222' }}>
-            {duration?.toString().split('.').join(':')}
+            {duration?.toFixed(2).split('.').join(':')}
           </Text>
         </View>
         <View style={{ width: 80 }}>
