@@ -11,8 +11,8 @@ import TrackPlayer, { Track } from 'react-native-track-player';
 import { useState, useEffect } from 'react';
 import AlbumArt from './src/components/AlbumArt';
 import { MEDIA_QUERY_BREAKPOINT_PX } from './src/utils';
-import Playlist from './src/components/composite/Playlist';
-import Header from './src/components/composite/Header';
+import Playlist from './src/components/composites/Playlist';
+import Header from './src/components/composites/Header';
 import { sampleSongData } from './src/utils';
 
 export default function App() {

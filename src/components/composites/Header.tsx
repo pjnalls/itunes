@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import TrackPlayer, { Track } from 'react-native-track-player';
 import { MEDIA_QUERY_BREAKPOINT_PX } from '../../utils';
 import Controls from '../Controls';
-import TrackProgress from '../atomic/TrackProgress';
+import TrackProgress from '../atoms/TrackProgress';
 
 export default function Header({
   width,

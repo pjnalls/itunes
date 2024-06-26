@@ -5,7 +5,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import { Track } from 'react-native-track-player';
-import PlaylistItem from '../atomic/PlaylistItem';
+import PlaylistItem from '../atoms/PlaylistItem';
 
 export default function Playlist({
   queue,
