@@ -21,19 +21,14 @@ export default function AlbumArt({
 					: styles.albumMobile,
 			]}
 		>
-			{artworkUri ? (
+			{artworkUri && (
 				<Image
 					style={styles.album}
 					source={{ uri: artworkUri }}
 					alt='album art'
 				/>
-			) : (
-				<Image
-					style={styles.album}
-					source={{ uri: './assets/icon.png' }}
-					alt={'placeholder art'}
-				/>
 			)}
+
 			<Text style={{ fontSize: 16, color: '#fff' }}>{album}</Text>
 			<Text style={{ fontSize: 14, color: '#fff' }}>{artist}</Text>
 		</View>

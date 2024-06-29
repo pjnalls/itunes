@@ -32,6 +32,8 @@ export default function Controls({
 		setCurrentTrack(track?.id);
 	}
 
+	const handleShuffle = () => onShuffle();
+
 	return (
 		<View
 			style={{
@@ -74,7 +76,7 @@ export default function Controls({
 				size={20}
 				backgroundColor='transparent'
 				color={'#777'}
-				onPress={onShuffle}
+				onPress={handleShuffle}
 			/>
 		</View>
 	);

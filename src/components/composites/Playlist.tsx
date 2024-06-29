@@ -13,6 +13,10 @@ export default function Playlist({
 	setInfo: React.Dispatch<React.SetStateAction<Track | undefined>>;
 	setCurrentTrack: React.Dispatch<React.SetStateAction<number>>;
 }) {
+	const Label = ({ text }: { text: string }) => (
+		<Text style={{ fontWeight: 500 }}>{text}</Text>
+	);
+
 	return (
 		<View style={[styles.playlist]}>
 			<View
@@ -28,22 +32,22 @@ export default function Playlist({
 				}}
 			>
 				<View style={{ width: 92 }}>
-					<Text style={{ fontWeight: 500 }}>Name</Text>
+					<Label text='Name' />
 				</View>
 				<View style={{ width: 40 }}>
-					<Text style={{ fontWeight: 500 }}>Time</Text>
+					<Label text='Time' />
 				</View>
 				<View style={{ width: 80 }}>
-					<Text style={{ fontWeight: 500 }}>Artist</Text>
+					<Label text='Artist' />
 				</View>
 				<View style={{ width: 100 }}>
-					<Text style={{ fontWeight: 500 }}>Album</Text>
+					<Label text='Album' />
 				</View>
 				<View style={{ width: 40 }}>
-					<Text style={{ fontWeight: 500 }}>Year</Text>
+					<Label text='Year' />
 				</View>
 				<View style={{ width: 90 }}>
-					<Text style={{ fontWeight: 500 }}>Genre</Text>
+					<Label text='Genre' />
 				</View>
 			</View>
 			{queue && (
