@@ -15,7 +15,7 @@
 <div align="center">
   <img alt="iPhone demo image" src="./assets/preview/ios.avif" width="200px">
   <img alt="Android-phone demo image" src="./assets/preview/android.avif" width="195px">
-  <img alt="Web demo image" src="./assets/preview/desktop.avif" width="265px">
+  <img alt="Web demo image" src="./assets/preview/desktop.avif" width="270px">
 </div>
 
 ## System Prerequisites
