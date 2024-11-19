@@ -5,7 +5,9 @@ export default function TrackProgress() {
   const { position, duration } = useProgress(200);
 
   function format(seconds: number) {
-    let mins = (seconds / 60).toFixed(0).padStart(1, '0');
+    let mins = Math.trunc(seconds / 60)
+      .toString()
+      .padStart(1, '0');
     let secs = (Math.trunc(seconds) % 60).toString().padStart(2, '0');
     return `${mins}:${secs}`;
   }

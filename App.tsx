@@ -50,8 +50,12 @@ export default function App() {
   }, []);
 
   return (
-    <SafeAreaView style={[{ flex: 1 }]}>
-      <StatusBar animated={true} backgroundColor="#999" hidden={false} />
+    <SafeAreaView style={[{ flex: 1, backgroundColor: '#eee' }]}>
+      <StatusBar
+        animated={true}
+        backgroundColor='#999'
+        hidden={false}
+      />
       <View
         style={[
           styles.container,
