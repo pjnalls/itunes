@@ -31,13 +31,13 @@ Recommended installation instructions are available [here](https://nodejs.org/en
 Somewhere in your file system, run either
 
 ```bash
-$ git clone https://github.com/pjnalls/itunes.git
+git clone https://github.com/pjnalls/itunes.git
 ```
 
 if you aren't connect to GitHub with any SSH keys, **_or_**
 
 ```bash
-$ git clone git@github.com:pjnalls/itunes.git
+git clone git@github.com:pjnalls/itunes.git
 ```
 
 if you are.
@@ -45,13 +45,13 @@ if you are.
 Next, navigate to the root of the newly cloned project by running the following:
 
 ```bash
-$ cd itunes/
+cd itunes/
 ```
 
 Then, install a `node_modules` folder for all the project's dependencies:
 
 ```bash
-$ npm i
+npm i
 ```
 
 ## [EAS](https://docs.expo.dev/build/introduction/) Project Builds
@@ -59,13 +59,13 @@ $ npm i
 Ensure the `eas-cli` is installed globally on your machine:
 
 ```bash
-$ npm i -g eas-cli
+npm i -g eas-cli
 ```
 
 Run the following command and follow the instructions in the CLI to create EAS builds for iOS (Apple Developer account needed) and Android:
 
 ```bash
-$ eas build --profile development --platform all
+eas build --profile development --platform all
 ```
 
 Alternatively, you can build for a single platform at a time as builds may take some time to complete:
@@ -73,13 +73,13 @@ Alternatively, you can build for a single platform at a time as builds may take 
 Run
 
 ```bash
-$ eas build --profile development --platform ios
+eas build --profile development --platform ios
 ```
 
 to create EAS builds for iOS only, and run
 
 ```bash
-$ eas build --profile development --platform android
+eas build --profile development --platform android
 ```
 
 to create EAS builds for iOS only.
@@ -91,7 +91,7 @@ to create EAS builds for iOS only.
 Run the following to run the Expo app:
 
 ```bash
-$ npm start
+npm start
 ```
 
 Then, if you have the EAS development builds installed on your phone, you should be able to scan the barcode that appears and run the React Native app from an iOS or and Android device.
